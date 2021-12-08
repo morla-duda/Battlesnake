@@ -8,7 +8,7 @@ class ApiController
 
 @GetMapping
 fun getBattlesnake(): GetBattlesnakeRes {
-    return GetBattlesnakeRes("1", "morlavi", "#888888", "default", "default", "0.0.1-beta")
+    return GetBattlesnakeRes("1", "morlavi", "#E80978", "bendr", "bolt", "0.0.1-beta")
 }
 
 @PostMapping("/start")
